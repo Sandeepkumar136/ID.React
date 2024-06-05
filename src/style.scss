@@ -7,7 +7,77 @@ $MediumBigFont: 1.2rem;
 $RegularFont: 1rem;
 $SmallFont: 0.9rem;
 
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
 
 body{
     background-color: $lightTheme;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #f3f2f2;
+}
+.nav-logo{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.logo-contain{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 1rem;
+}
+.logo-title{
+    font-size: $MediumBigFont;
+    font-weight: 500;
+    letter-spacing: 0.1px;
+}
+.nav-items, .social{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    list-style-type: none;
+    gap: 1rem;
+    transition: 0.4s all ease;
+}
+.nav-link:hover{
+    border-bottom: 2px solid #0008ff;
+}
+.nav-link{
+    font-size: $RegularFont;
+    font-weight: 500;
+    text-decoration: none;
+    color: #0d0d0d;
+    text-transform: capitalize;
+}
+.social-links{
+    font-size: 1.8rem;
+}
+.toggle-f-nav{
+    display: none;
+}
+.bxl-facebook-circle{
+    color: #0008ff;
+}
+.bxl-instagram-alt{
+    background: linear-gradient(45deg, #0051ff, #aa00ff, #ff008c);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.bxl-telegram{
+    color: #0008ff;
+}
+.bxl-github{
+    color: #aa00ff;
+}
+.bxs-moon{
+    color: #130038;
 }
