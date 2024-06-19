@@ -1,11 +1,17 @@
-import React from 'react'
+import React, {useState} from 'react';
 
  function Navigation(props){
+    const [isSidebaropen, setisSidebarOpen]=useState(false);
+    const toggleSidebar=()=>{
+        setisSidebarOpen(!isSidebaropen);
+    }
+
     return(
+        <>
         <div className="navbar">
         <div className="logo-contain">
             <img src="https://i.ibb.co/RNSJXNC/FB-IMG-1652607151685.jpg" alt="logo" className="nav-logo" />
-            <p className="logo-title">{props.logo_title}</p>
+            <p className="logo-title"><i class='bx bx-code-alt'></i> {props.logo_title}</p>
         </div>
         <ul className="nav-items">
             <li className="nav-lists"><a href="/" className="nav-link">Projects</a></li>
@@ -14,18 +20,53 @@ import React from 'react'
             <li className="nav-lists"><a href="/" className="nav-link">Gears</a></li>
             <li className="nav-lists"><a href="/" className="nav-link">Gallery</a></li>
         </ul>
-        <ul className="social">
-            <li className="social-list"><a href="/" className="social-links"><i className='bx bxl-facebook-circle'></i></a></li>
-            <li className="social-list"><a href="/" className="social-links"><i className='bx bxl-instagram-alt'></i></a></li>
-            <li className="social-list"><a href="/" className="social-links"><i className='bx bxl-telegram'></i></a></li>
-            <li className="social-list"><a href="/" className="social-links"><i className='bx bxl-github'></i></a></li>
-            <li className="social-list"><a href="/" className="social-links"><i className='bx bxs-moon' ></i></a></li>
+        <form action="#" id='searchForm' method="get">
+            <input type="text" id="searchinput" placeholder='CTRL+K ' />
+        </form>
+        <ul className="screen-mode">
+            <button type="button" id="screenModeBtn"><i className='bx bxs-moon'></i></button>
         </ul>
-        <div className="toggle-f-nav">
-        <i class="fa-solid fa-bars"></i>
-        <i class="fa-solid fa-x"></i>
+        <div className="toggle-f-nav" onClick={toggleSidebar}>
+        <i className="fa-solid fa-bars"></i>
         </div>
     </div>
+
+    <aside className={`sidebar ${isSidebaropen ?'open':''}`}>
+        <div className="upper-align-thrdfour">
+        <div className="sidebar-upper-align">
+        <div className="logo-contain">
+            <img src="https://i.ibb.co/RNSJXNC/FB-IMG-1652607151685.jpg" alt="logo" className="nav-logo" />
+            <p className="logo-title"><i class='bx bx-code-alt'></i> {props.logo_title}</p>
+        </div>
+        <div className="toggle-f-nav" onClick={toggleSidebar}>
+        <i className="fa-solid fa-x"></i>
+        </div>
+        </div>
+        <ul className="nav-items-sidebar">
+            <li className="nav-lists"><a href="/" className="nav-link">Projects</a></li>
+            <li className="nav-lists"><a href="/" className="nav-link">Blogs</a></li>
+            <li className="nav-lists"><a href="/" className="nav-link">Skills</a></li>
+            <li className="nav-lists"><a href="/" className="nav-link">Gears</a></li>
+            <li className="nav-lists"><a href="/" className="nav-link">Gallery</a></li>
+        </ul>
+        </div>
+        <div className="downalignSidebar">
+        <form action="#" id='searchFormsidebar' method="get">
+            <input type="text" id="searchinput" placeholder='CTRL+K ' />
+        </form>
+        <ul className="screen-modesidebar">
+            
+        </ul>
+
+        <button type="button" id="screenModeBtn"><i className='bx bxs-moon'></i></button>
+        </div>
+
+
+        <div className="toggle-f-nav" onClick={toggleSidebar}>
+        <i className="fa-solid fa-bars"></i>
+        </div>
+    </aside>
+        </>
     )
 
 }

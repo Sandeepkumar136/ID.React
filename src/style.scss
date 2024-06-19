@@ -33,12 +33,16 @@ body{
     display: flex;
     justify-content: start;
     align-items: center;
-    gap: 1rem;
+    gap: 0.5rem;
 }
 .logo-title{
     font-size: $MediumBigFont;
     font-weight: 500;
     letter-spacing: 0.1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.1rem;
 }
 .nav-items, .social{
     display: flex;
@@ -78,6 +82,85 @@ body{
 .bxl-github{
     color: #aa00ff;
 }
+#screenModeBtn{
+    border: none;
+    outline: none;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .bxs-moon{
     color: #130038;
+    font-size: 1.8rem;
 }
+#searchForm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 0.3rem;
+}
+.bx-code-alt{
+    font-size: 1.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    // border: 2px solid #000;
+    color: #0008ff;
+}
+#searchinput {
+    border: none;
+    outline: none;
+    background-color: #0051ff;
+    font-size: 16px; /* Use a specific value for plain CSS */
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    color: #fff;
+  }
+  
+  #searchinput::placeholder {
+    color: #fff; /* Set the placeholder color */
+    opacity: 1; /* Ensure full opacity */
+  }
+  @media only screen and (max-width:1024px) {
+    .screen-mode{
+        display: none;
+    }
+    #searchForm{
+        display: none;
+    }
+    .toggle-f-nav{
+        display: inline;
+        font-size: 1.5rem;
+    }
+    .navbar{
+        padding: 0.5rem;
+    }
+    .nav-logo{
+        height: 50px;
+        width: 50px;
+    }
+  }
+  @media only screen and (max-width:768px) {
+    .nav-items{
+        display: none;
+    }
+  }
+
+//   testing
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    transform: translateX(-110%);
+    width: 100%;
+    height: 100vh;
+    background-color: #222;
+    
+
+  }
+  .sidebar.open{
+    transform: translateX(0);
+  }
