@@ -1,0 +1,102 @@
+@media only screen and (max-width:1024px) {
+    .screen-mode{
+        display: none;
+    }
+    #searchForm{
+        display: none;
+    }
+    .toggle-f-nav{
+        display: inline;
+        font-size: 1.5rem;
+    }
+    .navbar{
+        padding: 0.5rem;
+    }
+    .nav-logo{
+        height: 50px;
+        width: 50px;
+    }
+  }
+  @media only screen and (max-width:768px) {
+    .nav-items{
+        display: none;
+    }
+    footer{
+      flex-wrap: wrap;
+      gap: 1rem;
+  }
+  .img-contain-footer{
+      padding: 0;
+  }
+  .footer-logo{
+      width: 45px;
+      height: 45px;
+  }
+  .f-user-name{
+      font-size: 0.9rem;
+  }
+  .config-footer{
+      padding-left: 0.5rem;
+      font-size: 0.7rem;
+  }
+  }
+  @media only screen and (min-width: 1024px) {
+    .navbar{
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      position: -webkit-sticky;
+    }
+    
+  }
+  @media only screen and (max-width: 430px) {
+    .logo-title{
+      font-size: 0.8rem;
+    } 
+    .heading-contain h2{
+      font-size: 1.2rem;
+    }
+    .text-contain-index-pera{
+      font-size: 0.8rem;
+    }
+    #Openlink, #Closelink{
+      font-size: 0.8rem;
+    }
+  }
+  @media only screen and (max-width: 1024px) {
+    .img-index-contain{
+      display: none;
+    }
+    .index-text-section{
+      width: 100%;
+    }
+    .course-card{
+      width: 100%;
+      margin: 1rem;
+  }
+  .global-heading{
+      font-size: 1.3rem;
+      margin-top: 1rem;
+  }
+  .heading-course{
+      font-size: 1rem;
+  }
+  .text-course{
+      font-size: 0.8rem;
+  }
+  .article{
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.course-card{
+    width: 100%;
+    margin: 0.5rem;
+}
+.testimonials{
+    flex-wrap: wrap;
+}
+.testi-card{
+    width: 100%;
+    height: fit-content;
+}
+  }
