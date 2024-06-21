@@ -1,4 +1,5 @@
 import React, {useEffect, useState} from 'react';
+import { Link } from 'react-router-dom';
 
  function Navigation(props){
     const [isSidebaropen, setisSidebarOpen]=useState(false);
@@ -29,16 +30,16 @@ import React, {useEffect, useState} from 'react';
     return(
         <>
         <div className="navbar">
-        <div className="logo-contain">
+        <Link to="/home" className="logo-contain">
             <img src="https://i.ibb.co/RNSJXNC/FB-IMG-1652607151685.jpg" alt="logo" className="nav-logo" />
             <p className="logo-title"><i class='bx bx-code-alt'></i> {props.logo_title}</p>
-        </div>
+        </Link>
         <ul className="nav-items">
-            <li className="nav-lists"><a href="/" className="nav-link">Projects</a></li>
-            <li className="nav-lists"><a href="/" className="nav-link">Blogs</a></li>
-            <li className="nav-lists"><a href="/" className="nav-link">Skills</a></li>
-            <li className="nav-lists"><a href="/" className="nav-link">Gears</a></li>
-            <li className="nav-lists"><a href="/" className="nav-link">Gallery</a></li>
+            <li className="nav-lists"><Link to="/project" className="nav-link">Projects</Link></li>
+            <li className="nav-lists"><Link to="/blogs" className="nav-link">Blogs</Link></li>
+            <li className="nav-lists"><Link to="/skills" className="nav-link">Skills</Link></li>
+            <li className="nav-lists"><Link to="/gears" className="nav-link">Gears</Link></li>
+            <li className="nav-lists"><Link to="/gallery" className="nav-link">Gallery</Link></li>
         </ul>
         <form action="#" id='searchForm' method="get">
             <input type="text" id="searchinput" placeholder='CTRL+K ' />
@@ -67,11 +68,11 @@ import React, {useEffect, useState} from 'react';
         </div>
         </div>
         <ul className="nav-items-sidebar">
-            <li className="nav-lists-sidebar"><a href="/" className="nav-link-sidebar">Projects</a></li>
-            <li className="nav-lists-sidebar"><a href="/" className="nav-link-sidebar">Blogs</a></li>
-            <li className="nav-lists-sidebar"><a href="/" className="nav-link-sidebar">Skills</a></li>
-            <li className="nav-lists-sidebar"><a href="/" className="nav-link-sidebar">Gears</a></li>
-            <li className="nav-lists-sidebar"><a href="/" className="nav-link-sidebar">Gallery</a></li>
+            <li className="nav-lists-sidebar"><Link to="/project" className="nav-link-sidebar">Projects</Link></li>
+            <li className="nav-lists-sidebar"><Link to="/blogs" className="nav-link-sidebar">Blogs</Link></li>
+            <li className="nav-lists-sidebar"><Link to="/skills" className="nav-link-sidebar">Skills</Link></li>
+            <li className="nav-lists-sidebar"><Link to="/gears" className="nav-link-sidebar">Gears</Link></li>
+            <li className="nav-lists-sidebar"><Link to="/gallery" className="nav-link-sidebar">Gallery</Link></li>
         </ul>
         </div>
         <div className="downalignSidebar">
