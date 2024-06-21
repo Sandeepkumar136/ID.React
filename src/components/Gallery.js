@@ -1,9 +1,20 @@
-import React from 'react'
+// src/components/Gallery.js
+import React, { useEffect } from 'react';
 
-export default function Gallery() {
+export default function Gallery({ onLoadingStart, onLoadingStop }) {
+  useEffect(() => {
+    if (onLoadingStart && onLoadingStop) {
+      onLoadingStart();
+      // Simulate loading time
+      setTimeout(() => {
+        onLoadingStop();
+      }, 1000);
+    }
+  }, [onLoadingStart, onLoadingStop]);
+
   return (
     <div>
-      <p>this is Gallery</p>
+      <p>This is Gallery</p>
     </div>
-  )
+  );
 }

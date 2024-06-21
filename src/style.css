@@ -552,4 +552,10 @@ footer {
   opacity: 0.8;
   padding-left: 1rem;
   border-left: 4px solid #666;
+}
+
+.LoadingBar {
+  background: linear-gradient(9deg, #00ff73, #003cff, #ff00e1);
+  -webkit-background-clip: text;
+  color: transparent;
 }/*# sourceMappingURL=style.css.map */
