@@ -32,7 +32,7 @@ import { Link } from 'react-router-dom';
         <div className="navbar">
         <Link to="/home" className="logo-contain">
             <img src="https://i.ibb.co/RNSJXNC/FB-IMG-1652607151685.jpg" alt="logo" className="nav-logo" />
-            <p className="logo-title"><i class='bx bx-code-alt'></i> {props.logo_title}</p>
+            <p className="logo-title"><i className='bx bx-code-alt'></i> {props.logo_title}</p>
         </Link>
         <ul className="nav-items">
             <li className="nav-lists"><Link to="/project" className="nav-link">Projects</Link></li>
@@ -61,7 +61,7 @@ import { Link } from 'react-router-dom';
         <div className="sidebar-upper-align">
         <div className="logo-contain-sidebar">
             <img src="https://i.ibb.co/RNSJXNC/FB-IMG-1652607151685.jpg" alt="logo" className="nav-logo" />
-            <p className="logo-title"><i class='bx bx-code-alt'></i> {props.logo_title}</p>
+            <p className="logo-title"><i className='bx bx-code-alt'></i> {props.logo_title}</p>
         </div>
         <div className="toggle-f-nav" onClick={toggleSidebar}>
         <i className="fa-solid fa-x"></i>
