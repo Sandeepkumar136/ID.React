@@ -1,0 +1,128 @@
+[
+    {
+        "id": 1,
+        "username": "Sandeep Kumar",
+        "img": "https://i.ibb.co/sb68Z0G/FB-IMG-1652607151685.jpg",
+        "date": "03-Dec-23",
+        "title": "Enhancing User Experience: Creating a Unique Hover Effect for UL Links",
+        "description": "In The World Of Web Development, Creating A Delightful User Experience Is Paramount. One Way To Achieve This Is By Employing Captivating Hover Effects That Engage Users And Make Navigation Intuitive And Visually Appealing. In This Blog, We'll Delve Into The Creation Of A Unique Hover Effect For Unordered List (UL) Links That Provides An Interactive Experience Where Hovering Over One List Item Triggers Hover Effects For All Other Items Except The One Being Hovered Over.",
+        "link": "https://github.com/Sandeepkumar136"
+    },
+    {
+        "id": 2,
+        "username": "Sandeep Kumar",
+        "img": "https://i.ibb.co/sb68Z0G/FB-IMG-1652607151685.jpg",
+        "date": "15-Dec-23",
+        "title": "Mastering Visual Elegance: Exploring CSS Linear Gradients",
+        "description": "In The Realm Of Web Design, Colors Play A Pivotal Role In Conveying Emotions, Aesthetics, And Brand Identity. Cascading Style Sheets (CSS) Offers A Multitude Of Ways To Enhance The Visual Appeal Of Your Website, And One Of The Most Versatile Techniques Is The Use Of Linear Gradients. In This Blog, We'll Embark On A Journey To Demystify CSS Linear Gradients, Exploring Their Syntax, Applications, And Creative Potential.",
+        "link": "https://github.com/Sandeepkumar136"
+    },
+    {
+        "id": 3,
+        "username": "Sandeep Kumar",
+        "img": "https://i.ibb.co/sb68Z0G/FB-IMG-1652607151685.jpg",
+        "date": "16-Dec-23",
+        "title": "Navigating the Infinite: Unraveling the Magic of the Infinity Loop",
+        "description": "In The Realm Of Programming And Computer Science, Some Concepts Possess An Almost Mystical Allure. One Such Concept Is The \"Infinity Loop.\" This Intriguing Structure Holds The Power To Create Perpetual Motion In Software, And In This Blog, We're About To Embark On A Journey Into The Infinite, Exploring The Ins And Outs Of The Infinity Loop.",
+        "link": "https://github.com/Sandeepkumar136"
+    },
+    {
+        "id": 4,
+        "username": "Sandeep Kumar",
+        "img": "https://i.ibb.co/sb68Z0G/FB-IMG-1652607151685.jpg",
+        "date": "18-Dec-23",
+        "title": "Mastering User Input: A Guide to Fixing Range in HTML Forms",
+        "description": "In The Realm Of Web Development, Crafting Seamless And Intuitive User Experiences Is Paramount. HTML Forms Are A Fundamental Component Of Web Interaction, And One Essential Aspect Is Controlling User Input Within A Specified Range. In This Blog, We'll Delve Into The Art Of Fixing Input Ranges In HTML Forms, Ensuring Data Accuracy And Enhancing User Satisfaction.",
+        "link": "https://github.com/Sandeepkumar136"
+    },
+    {
+        "id": 5,
+        "username": "Sandeep Kumar",
+        "img": "https://i.ibb.co/sb68Z0G/FB-IMG-1652607151685.jpg",
+        "date": "20-Dec-23",
+        "title": "Simplifying Inventory Management: Barcode Generation in Excel",
+        "description": "In The World Of Inventory Management And Retail, Efficiency Is Key. Barcodes Have Revolutionized The Way Businesses Handle Products, Enabling Streamlined Tracking, Faster Transactions, And Accurate Inventory Control. In This Blog, We'll Explore How To Generate Barcodes In Excel, Making Inventory Management Smoother And More Organized Than Ever Before.",
+        "link": "https://github.com/Sandeepkumar136"
+    },
+    {
+        "id": 6,
+        "username": "Sandeep Kumar",
+        "img": "https://i.ibb.co/sb68Z0G/FB-IMG-1652607151685.jpg",
+        "date": "22-Dec-23",
+        "title": "Exploring the Magic of Random Numbers in JavaScript",
+        "description": "Explore The Enchanting World Of Random Numbers In JavaScript With This Blog. Delve Into The Generation Of Pseudo-Random Numbers, Discover Practical Applications In Game Development, Simulations, And Security. Uncover Potential Pitfalls And Learn How To Add A Touch Of Unpredictability To Your Projects For Dynamic And Engaging User Experiences.",
+        "link": "https://github.com/Sandeepkumar136"
+    },
+    {
+        "id": 7,
+        "username": "Sandeep Kumar",
+        "img": "https://i.ibb.co/sb68Z0G/FB-IMG-1652607151685.jpg",
+        "date": "22-Dec-23",
+        "title": "Exploring the Magic of Random Numbers in JavaScript",
+        "description": "Explore The Enchanting World Of Random Numbers In JavaScript With This Blog. Delve Into The Generation Of Pseudo-Random Numbers, Discover Practical Applications In Game Development, Simulations, And Security. Uncover Potential Pitfalls And Learn How To Add A Touch Of Unpredictability To Your Projects For Dynamic And Engaging User Experiences.",
+        "link": "https://github.com/Sandeepkumar136"
+    },
+    {
+        "id": 8,
+        "username": "Sandeep Kumar",
+        "img": "https://i.ibb.co/sb68Z0G/FB-IMG-1652607151685.jpg",
+        "date": "22-Dec-23",
+        "title": "Exploring the Magic of Random Numbers in JavaScript",
+        "description": "Explore The Enchanting World Of Random Numbers In JavaScript With This Blog. Delve Into The Generation Of Pseudo-Random Numbers, Discover Practical Applications In Game Development, Simulations, And Security. Uncover Potential Pitfalls And Learn How To Add A Touch Of Unpredictability To Your Projects For Dynamic And Engaging User Experiences.",
+        "link": "https://github.com/Sandeepkumar136"
+    },
+    {
+        "id": 9,
+        "username": "Sandeep Kumar",
+        "img": "https://i.ibb.co/sb68Z0G/FB-IMG-1652607151685.jpg",
+        "date": "22-Dec-23",
+        "title": "Exploring the Magic of Random Numbers in JavaScript",
+        "description": "Explore The Enchanting World Of Random Numbers In JavaScript With This Blog. Delve Into The Generation Of Pseudo-Random Numbers, Discover Practical Applications In Game Development, Simulations, And Security. Uncover Potential Pitfalls And Learn How To Add A Touch Of Unpredictability To Your Projects For Dynamic And Engaging User Experiences.",
+        "link": "https://github.com/Sandeepkumar136"
+    },
+    {
+        "id": 10,
+        "username": "Sandeep Kumar",
+        "img": "https://i.ibb.co/sb68Z0G/FB-IMG-1652607151685.jpg",
+        "date": "22-Dec-23",
+        "title": "Exploring the Magic of Random Numbers in JavaScript",
+        "description": "Explore The Enchanting World Of Random Numbers In JavaScript With This Blog. Delve Into The Generation Of Pseudo-Random Numbers, Discover Practical Applications In Game Development, Simulations, And Security. Uncover Potential Pitfalls And Learn How To Add A Touch Of Unpredictability To Your Projects For Dynamic And Engaging User Experiences.",
+        "link": "https://github.com/Sandeepkumar136"
+    },
+    {
+        "id": 11,
+        "username": "Sandeep Kumar",
+        "img": "https://i.ibb.co/sb68Z0G/FB-IMG-1652607151685.jpg",
+        "date": "22-Dec-23",
+        "title": "Exploring the Magic of Random Numbers in JavaScript",
+        "description": "Explore The Enchanting World Of Random Numbers In JavaScript With This Blog. Delve Into The Generation Of Pseudo-Random Numbers, Discover Practical Applications In Game Development, Simulations, And Security. Uncover Potential Pitfalls And Learn How To Add A Touch Of Unpredictability To Your Projects For Dynamic And Engaging User Experiences.",
+        "link": "https://github.com/Sandeepkumar136"
+    },
+    {
+        "id": 12,
+        "username": "Sandeep Kumar",
+        "img": "https://i.ibb.co/sb68Z0G/FB-IMG-1652607151685.jpg",
+        "date": "22-Dec-23",
+        "title": "Exploring the Magic of Random Numbers in JavaScript",
+        "description": "Explore The Enchanting World Of Random Numbers In JavaScript With This Blog. Delve Into The Generation Of Pseudo-Random Numbers, Discover Practical Applications In Game Development, Simulations, And Security. Uncover Potential Pitfalls And Learn How To Add A Touch Of Unpredictability To Your Projects For Dynamic And Engaging User Experiences.",
+        "link": "https://github.com/Sandeepkumar136"
+    },
+    {
+        "id": 13,
+        "username": "Sandeep Kumar",
+        "img": "https://i.ibb.co/sb68Z0G/FB-IMG-1652607151685.jpg",
+        "date": "22-Dec-23",
+        "title": "Exploring the Magic of Random Numbers in JavaScript",
+        "description": "Explore The Enchanting World Of Random Numbers In JavaScript With This Blog. Delve Into The Generation Of Pseudo-Random Numbers, Discover Practical Applications In Game Development, Simulations, And Security. Uncover Potential Pitfalls And Learn How To Add A Touch Of Unpredictability To Your Projects For Dynamic And Engaging User Experiences.",
+        "link": "https://github.com/Sandeepkumar136"
+    },
+    {
+        "id": 14,
+        "username": "Sandeep Kumar",
+        "img": "https://i.ibb.co/sb68Z0G/FB-IMG-1652607151685.jpg",
+        "date": "22-Dec-23",
+        "title": "Manifesto the Magic of Random Numbers in JavaScript",
+        "description": "Explore The Enchanting World Of Random Numbers In JavaScript With This Blog. Delve Into The Generation Of Pseudo-Random Numbers, Discover Practical Applications In Game Development, Simulations, And Security. Uncover Potential Pitfalls And Learn How To Add A Touch Of Unpredictability To Your Projects For Dynamic And Engaging User Experiences.",
+        "link": "https://github.com/Sandeepkumar136"
+    }
+]
