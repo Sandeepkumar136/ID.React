@@ -138,7 +138,8 @@ body {
 #searchinput {
   border: none;
   outline: none;
-  font-size: 16px; /* Use a specific value for plain CSS */
+  font-size: 16px;
+  /* Use a specific value for plain CSS */
   padding: 0.5rem;
   border-radius: 0.5rem;
   background-color: #f9f9f9;
@@ -146,13 +147,17 @@ body {
 }
 
 #searchinput::-moz-placeholder {
-  color: #090909; /* Set the placeholder color */
-  opacity: 1; /* Ensure full opacity */
+  color: #090909;
+  /* Set the placeholder color */
+  opacity: 1;
+  /* Ensure full opacity */
 }
 
 #searchinput::placeholder {
-  color: #090909; /* Set the placeholder color */
-  opacity: 1; /* Ensure full opacity */
+  color: #090909;
+  /* Set the placeholder color */
+  opacity: 1;
+  /* Ensure full opacity */
 }
 
 .sidebar {
@@ -268,11 +273,13 @@ body {
   gap: 0.5rem;
 }
 
-.dark-mode .social-lists .bxs-moon, .bxs-sun {
+.dark-mode .social-lists .bxs-moon,
+.bxs-sun {
   color: white;
 }
 
-.light-mode .social-lists .bxs-moon, .bxs-sun {
+.light-mode .social-lists .bxs-moon,
+.bxs-sun {
   color: #0d0d0d;
 }
 
@@ -361,7 +368,8 @@ body {
   margin-top: 0.2rem;
 }
 
-#Openlink, #Closelink {
+#Openlink,
+#Closelink {
   border: none;
   outline: none;
   padding: 5px 10px;
@@ -371,7 +379,8 @@ body {
   border-radius: 3px;
 }
 
-.dark-mode #Openlink, #Closelink {
+.dark-mode #Openlink,
+#Closelink {
   background-color: #aa00ff;
 }
 
@@ -681,4 +690,42 @@ footer {
 
 .bx-burst {
   font-size: 2rem;
+}
+
+.carousel-container {
+  width: 100%;
+  overflow: hidden;
+  margin: 20px 0;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.carousel-slide {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel-item {
+  width: 100%;
+  height: 300px; /* Adjust height as needed */
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  transition: opacity 0.5s ease-in-out; /* Fade transition */
+}
+
+.carousel-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Adjust opacity as needed */
+  color: #fff;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.carousel-description {
+  padding: 10px;
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */

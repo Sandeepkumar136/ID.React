@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import SkillsCrusal from './SkillsCrusal';
 
 export default function Skills({ onLoadingStart, onLoadingStop }) {
   useEffect(() => {
@@ -12,7 +13,7 @@ export default function Skills({ onLoadingStart, onLoadingStop }) {
   }, [onLoadingStart, onLoadingStop]);
   return (
     <div>
-      <p>this is skills</p>
+      <SkillsCrusal/>
     </div>
   )
 }
